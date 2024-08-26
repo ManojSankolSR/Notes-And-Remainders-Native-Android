@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="indicator_colors">
+        <item >@color/Blue</item>
+        <item >@color/Yellow</item>
+        <item >@color/Red</item>
+        <item>@color/Green</item>
+        <item>@color/Orange</item>
+    </integer-array>
+</resources>

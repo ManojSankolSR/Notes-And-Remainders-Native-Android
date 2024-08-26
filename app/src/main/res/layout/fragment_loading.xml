@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/semitTransperemt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".auth.presentation.LoadingFragment">
+
+    <com.google.android.material.progressindicator.LinearProgressIndicator
+        android:layout_margin="8dp"
+        android:layout_gravity="start"
+        android:layout_width="match_parent"
+        android:indeterminate="true"
+        app:trackCornerRadius="8dp"
+        android:indeterminateDuration="8000"
+
+        app:indeterminateAnimationType="contiguous"
+        app:indicatorColor="@array/indicator_colors"
+
+        android:layout_height="10dp"/>
+
+
+</FrameLayout>

@@ -1,0 +1,90 @@
+{
+  "project_info": {
+    "project_number": "161827126389",
+    "project_id": "authnotes-d8481",
+    "storage_bucket": "authnotes-d8481.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161827126389:android:9e8a34d00d873eb9614c3c",
+        "android_client_info": {
+          "package_name": "com.example.auth_notes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "161827126389-vut146efbflumrfdoa9ud9c0s3se4kn7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.auth_notes",
+            "certificate_hash": "2a75ad4b05e64b93233e43f2a037ba1b4b962308"
+          }
+        },
+        {
+          "client_id": "161827126389-ffjtr0v9grjs7mn7g7t8o060ifg08dse.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtLX-NLyvbpG_oov9KnVFlPkTInRdEpsE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "161827126389-ffjtr0v9grjs7mn7g7t8o060ifg08dse.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "161827126389-0alfhu9h6u8la0i9pjitag2amo711b2d.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.authNotes"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161827126389:android:14d94be4b62b393b614c3c",
+        "android_client_info": {
+          "package_name": "com.example.notesandremainders"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "161827126389-ffjtr0v9grjs7mn7g7t8o060ifg08dse.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCtLX-NLyvbpG_oov9KnVFlPkTInRdEpsE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "161827126389-ffjtr0v9grjs7mn7g7t8o060ifg08dse.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "161827126389-0alfhu9h6u8la0i9pjitag2amo711b2d.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.authNotes"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

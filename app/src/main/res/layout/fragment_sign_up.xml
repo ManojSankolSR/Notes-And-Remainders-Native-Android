@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:animateLayoutChanges="true"
+    tools:context=".auth.presentation.SignUpFragment">
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_gravity="bottom"
+        android:background="@color/white"
+        style="?attr/materialCardViewElevatedStyle"
+        android:elevation="20dp"
+
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:background="@drawable/bottom_rounded"
+            android:padding="20dp"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?attr/textAppearanceHeadlineLarge"
+        android:textColor="?attr/colorPrimary"
+        android:text="Welcome To"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:textAppearance="?attr/textAppearanceTitleLarge"
+        android:text=" Notes And Remainders App" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="8dp"
+
+        android:layout_height="wrap_content"
+        android:textStyle="normal"
+        android:textAppearance="?attr/textAppearanceBodyMedium"
+        android:text="A Place Where You Can Store Your Notes An Remainders" />
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+
+
+
+
+
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/username_TIF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+
+
+
+
+
+        >
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/email_TIF"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/password_TIF"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Password"
+            />
+    </com.google.android.material.textfield.TextInputLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/already_have_acc_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Already Have An Account ?  "
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:textColor="@color/Blue"
+            android:textStyle="bold"
+            />
+    </LinearLayout>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/signin_button"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SignUp"
+        app:cornerRadius="8dp"
+        />
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/google_signin_button"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?attr/materialButtonOutlinedStyle"
+        android:text="Google"
+        app:icon="@drawable/google_icon"
+
+        app:cornerRadius="8dp"
+
+        />
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</FrameLayout>
